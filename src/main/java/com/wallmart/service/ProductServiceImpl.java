@@ -1,15 +1,12 @@
 package com.wallmart.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.wallmart.dao.ProductRepository;
 import com.wallmart.entities.Product;
-
-import java.util.List;
-
-import org.bson.types.ObjectId;
 
 @Service
 public class ProductServiceImpl implements ProductService {

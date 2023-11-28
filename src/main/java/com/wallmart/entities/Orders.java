@@ -1,12 +1,16 @@
 package com.wallmart.entities;
 
-import javax.persistence.*;
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import java.time.LocalDate;
-import java.util.Date;
 
 @Entity
 @Document(collection = "orders")

@@ -1,7 +1,6 @@
 package com.wallmart.utilities;
 
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import org.springframework.stereotype.Component;
 
